@@ -16,6 +16,7 @@ local screen, nickname = ...
 ----------------------------------------------------
 
 local list = {
+    --[[
     {
         name = "example",
         version = "1",
@@ -28,6 +29,7 @@ local list = {
         urlPrimaryPart = "https://raw.githubusercontent.com/igorkll/likedCommunityApps/main/apps/example.app/",
         files = {"main.lua", "icon.t2p"}
     }
+    ]]
 }
 
 return list
