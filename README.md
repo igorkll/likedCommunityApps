@@ -22,3 +22,4 @@
 * your application cannot interfere with the operation of other applications/system
 * your application must comply with the "unlicense" license
 * your application should not have someone else's code if it is not published under the "unlinense" license
+* when installing the application, no unnecessary actions can be performed except for the installation
