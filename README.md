@@ -43,5 +43,8 @@
 * your application should not raise exceptions (error in lua) under any circumstances!
 * the icon of your application must have a resolution of 8x4, have a t2p format (created using paint in liked) and reflect the essence of your application
 * your application cannot have strong blinks that can cause: epileptic seizures, accelerated drowsiness, headache
+* your application should work without the target component that it is aimed at: for example, if your application needs to work with a radar, and at the same time is able to save information to a file, then it should be possible to view this file without a radar
 
 #### If your app does not comply with the rules, I have the right to hide it from the list of apps!
+
+#### if you want to publish an application that does not comply with the rules of this repository, then you can create your own repository with your application, but it will not be displayed to people who downloaded the OS, in order for them to download the application, they will need to connect your repository to the "market"
