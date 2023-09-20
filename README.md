@@ -44,6 +44,7 @@
 * the icon of your application must have a resolution of 8x4, have a t2p format (created using paint in liked) and reflect the essence of your application
 * your application cannot have strong blinks that can cause: epileptic seizures, accelerated drowsiness, headache
 * your application should work without the target component that it is aimed at: for example, if your application needs to work with a radar, and at the same time is able to save information to a file, then it should be possible to view this file without a radar
+* the line in the "version" field must change every time the content/description is updated
 
 #### If your app does not comply with the rules, I have the right to hide it from the list of apps!
 
