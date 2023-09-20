@@ -29,10 +29,9 @@
 * applications cannot have functionality that is available in another application or in the system itself
 * the name must not exceed 16 characters in length
 * the application should not spoil the appearance of the "market" application or desktop
-* your application cannot make changes to the "system" folder
+* your application cannot make changes to the root folder (only "/data" folder can be writable)
 * your application can use the /data folder and registry to store its files/data, but it is obliged to remove all traces of its presence after deletion
 * your application cannot interfere with the operation of other applications/system
-* your application should not have someone else's code if it is not published under the "unlinense" license
 * when installing the application, no unnecessary actions can be performed except for the installation
 * the "vendor" field should match your nickname on github (if you send a pull request) or in discord (if you send applications to discord)
 * your application cannot contain pornographic/erotic content or serve as a means that is aimed at viewing pornographic/erotic content
@@ -45,6 +44,8 @@
 * your application cannot have strong blinks that can cause: epileptic seizures, accelerated drowsiness, headache
 * your application should work without the target component that it is aimed at: for example, if your application needs to work with a radar, and at the same time is able to save information to a file, then it should be possible to view this file without a radar
 * the line in the "version" field must change every time the content/description is updated
+* your application cannot download any content from the internet without the user's permission
+* your application cannot use any means of communication between computers in the game without the user's permission
 
 #### If your app does not comply with the rules, I have the right to hide it from the list of apps!
 
