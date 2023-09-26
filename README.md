@@ -37,7 +37,7 @@
 * your application cannot contain pornographic/erotic content or serve as a means that is aimed at viewing pornographic/erotic content
 * your application should be installed without errors if there is exactly as much space on the disk as specified in the minimum volume required for installation
 * your application should work fine at the screen/gpu level that you specified in the minimum screen/gpu level, as well as on all screen/gpu levels above
-* your application cannot have excessive system requirements, for example: if the interface of your application is simple and can be implemented in the same form on the second-level screen, but it is able to be displayed only on the third-level screen. then you can't just specify a third-level screen in the minimum system requirements. you have to adapt your applications to work on the second-level screen
+* your application cannot have excessive system requirements, for example: if the interface of your application is simple and can be implemented in the same form on the second-level screen, but it is able to be displayed only on the third-level screen. then you can't just specify a third-level screen in the minimum system requirements. you have to adapt your application to work on the second-level screen
 * your application does not have the right to close without returning the screen/video card settings and the system as it was installed before opening: if your application needs to change the resolutions/color depth or any variables in the "gui_container" library, then you must return everything to its place when closing (forced closing via ctrl+alt+c does not require processing for restoring the parameters, but if your application creates a timer/background process that must be disable after closing, it would be better to disable ctrl+alt+c(don't forget to turn it on when closing!))
 * your application should not raise exceptions (error in lua) under any circumstances!
 * the icon of your application must have a resolution of 8x4, have a t2p format (created using paint in liked) and reflect the essence of your application
@@ -46,6 +46,9 @@
 * the line in the "version" field must change every time the content/description is updated
 * your application cannot download any content from the internet without the user's permission
 * your application cannot use any means of communication between computers in the game without the user's permission
+* it is forbidden to artificially degrade the readability of the code or use minification
+* if you earn real money on the application located in this repository, then you must transfer me 10% of your earnings (by contacting me)
+* the application cannot harm the game / real or virtual computer. if finally the application can cause harm due to failure/ improper handling, then it should be tested especially carefully
 
 #### If your app does not comply with the rules, I have the right to hide it from the list of apps!
 
