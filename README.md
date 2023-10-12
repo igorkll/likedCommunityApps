@@ -49,6 +49,7 @@
 * it is forbidden to artificially degrade the readability of the code or use minification
 * if you earn real money on the application located in this repository, then you must transfer me 10% of your earnings (by contacting me)
 * the application cannot harm the game / real or virtual computer. if finally the application can cause harm due to failure/ improper handling, then it should be tested especially carefully
+* if your program interacts with components, then you should be able to select a component from the list of connected ones
 
 #### If your app does not comply with the rules, I have the right to hide it from the list of apps!
 
